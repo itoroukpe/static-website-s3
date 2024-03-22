@@ -142,5 +142,14 @@ To publish this static website using an AWS S3 bucket, follow these steps:
 5. **Access Your Website:**
    - Once you've configured the bucket for static website hosting and set the appropriate permissions, your website should be accessible via the provided endpoint URL.
    - You can find the endpoint URL for your website in the "Static website hosting" section of your bucket properties.
+  
+  **IAM Role**
+1. Navigate to the IAM console
+2. Edit the permissions for the IAM user/role being used to access the S3 console
+3. Attach the AmazonS3FullAccess policy to the user/role
+4. Navigate to the S3 console bucket page that caused the error 
+5. Edit the Block Public Access settings for the bucket
+6. Disable any settings currently enabled that conflict with the bucket policy changes attempted
+7. Retry saving the bucket policy edits
 
 That's it! Your static website is now published and accessible to the public via the AWS S3 bucket. You can continue to update and manage your website by uploading new files to the bucket as needed.
