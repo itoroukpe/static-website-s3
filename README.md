@@ -41,9 +41,9 @@ Below is a simple example of HTML, CSS, and JavaScript code for a static website
 
 <h2>Step 5: Set Bucket Policy for Public Access<h2>
 <p>To make your website accessible to the public, you'll need to set a bucket policy that allows read access to everyone. Go to the "Permissions" tab of your bucket, click on "Bucket Policy," and enter a policy similar to the following:</p>
-
-<p>
 ```
+<p>
+
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -56,8 +56,9 @@ Below is a simple example of HTML, CSS, and JavaScript code for a static website
     }
   ]
 }
-```
+
 </p>
+```
 <p>Replace "your-bucket-name" with the name of your bucket. Click "Save" to apply the policy.</p>
 
 <h2>Step 6: Access Your Website<h2>
