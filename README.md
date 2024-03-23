@@ -70,7 +70,7 @@ Below is a simple example of HTML, CSS, and JavaScript code for a static website
     </article>
   </main>
   <footer>
-    <p>&copy; 2024 My Blog</p>
+    <p>&copy; 2024 RondusTech</p>
   </footer>
   <script src="script.js"></script>
 </body>
